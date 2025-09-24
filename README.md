@@ -1,6 +1,7 @@
 📊 E-commerce Sales Analytics Web Application
 
-An end-to-end full stack + data analytics project that demonstrates skills in data engineering, analytics, machine learning, and full stack web development.
+An end-to-end full stack + data analytics project that demonstrates my skills in data engineering, analytics, machine learning, and full stack web development.
+
 
 🚀 Project Overview
 
@@ -16,6 +17,7 @@ Interactive dashboard (HTML, CSS, JS, Chart.js) visualizes insights for business
 
 Deployment ready with Docker, GitHub Actions CI, and Heroku.
 
+
 🛠️ Tech Stack
 
 Frontend: HTML5, CSS3, Bootstrap, JavaScript, Chart.js
@@ -27,6 +29,7 @@ Data: Pandas, NumPy, scikit-learn, PostgreSQL/MySQL (demo uses CSV)
 Visualization: Chart.js, Plotly (optional Power BI/Tableau export)
 
 DevOps: Docker, GitHub Actions CI, Heroku deployment
+
 
 📂 Repository Structure
 ecommerce-sales-analytics/
@@ -40,6 +43,7 @@ ecommerce-sales-analytics/
 │── docs/           # Screenshots & documentation
 │── README.md
 
+
 📸 Screenshots
 
 ### Dashboard – Monthly Revenue Trend  
@@ -50,6 +54,7 @@ ecommerce-sales-analytics/
 
 ### Dashboard – Customer Segmentation (RFM)  
 ![Segments](dashboard_segments.png)  
+
 
 
 ⚙️ How to Run Locally
@@ -84,6 +89,7 @@ GET /api/customers/rfm → customer segmentation (RFM)
 
 POST /api/predict/forecast → revenue forecast
 
+
 📊 Data Pipeline & Modeling
 
 ETL: Clean raw orders dataset (remove duplicates, fix dates, calculate totals).
@@ -95,6 +101,7 @@ Segmentation: Quantile-based RFM scoring → high, medium, low value customers.
 Forecasting: Linear regression on monthly sales → predicts revenue for upcoming months.
 
 Serving: Models persisted with joblib and loaded into Flask endpoints.
+
 
 🧪 Testing & CI/CD
 
