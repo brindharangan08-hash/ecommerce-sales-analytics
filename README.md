@@ -41,11 +41,16 @@ ecommerce-sales-analytics/
 │── README.md
 
 📸 Screenshots
-Dashboard – Monthly Revenue Trend
 
-Dashboard – Top Products by Sales
+### Dashboard – Monthly Revenue Trend  
+![Revenue](docs/screenshots/dashboard_revenue.png)  
 
-Dashboard – Customer Segmentation (RFM)
+### Dashboard – Top Products by Sales  
+![Top Products](docs/screenshots/dashboard_top_products.png)  
+
+### Dashboard – Customer Segmentation (RFM)  
+![Segments](docs/screenshots/dashboard_segments.png)  
+
 
 ⚙️ How to Run Locally
 1. Clone the repo
