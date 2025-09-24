@@ -49,7 +49,7 @@ Dashboard – Customer Segmentation (RFM)
 
 ⚙️ How to Run Locally
 1. Clone the repo
-git clone https://github.com/<your-username>/ecommerce-sales-analytics.git
+git clone https://github.com/brindharangan08-hash/ecommerce-sales-analytics.git
 cd ecommerce-sales-analytics
 
 2. Run ETL (prepare cleaned dataset)
